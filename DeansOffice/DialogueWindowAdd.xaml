@@ -1,0 +1,27 @@
+﻿<Window x:Class="DeansOffice.DialogueWindowAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeansOffice"
+        mc:Ignorable="d"
+        Title="DialogueWindowAdd" Height="501.207" Width="471.207">
+    <Grid>
+        <Label Content="Dodaj studenta" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Height="62" Width="258" FontSize="32" Name="Info"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="165,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" FontSize="22" Name="Nazwisko"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="165,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" FontSize="22" Name="NrIndeksu"/>
+        <ComboBox HorizontalAlignment="Left" Margin="165,227,0,0" VerticalAlignment="Top" Width="271" Height="37" FontSize="22" Name="Studia"/>
+        <Button Content="Dodaj" HorizontalAlignment="Left" Margin="165,415,0,0" VerticalAlignment="Top" Width="101" Height="25" Name="ButtonAdd" Click="ButtonAdd_Click"/>
+        <Button Content="Usuń" HorizontalAlignment="Left" Margin="335,415,0,0" VerticalAlignment="Top" Width="101" Height="25"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="27,101,0,0" VerticalAlignment="Top" Height="37" Width="133" FontSize="22"/>
+        <Label Content="Imię" HorizontalAlignment="Left" Margin="27,143,0,0" VerticalAlignment="Top" Height="37" Width="133" FontSize="22"/>
+        <Label Content="Nr indeksu" HorizontalAlignment="Left" Margin="27,185,0,0" VerticalAlignment="Top" Height="37" Width="133" FontSize="22"/>
+        <Label Content="Studia" HorizontalAlignment="Left" Margin="27,227,0,0" VerticalAlignment="Top" Height="37" Width="133" FontSize="22"/>
+        <Label Content="Przedmioty" HorizontalAlignment="Left" Margin="27,269,0,0" VerticalAlignment="Top" Height="37" Width="133" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="165,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" FontSize="22" Name="Nazwisko_TxtBox"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="165,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" FontSize="22" Name="Imie"/>
+        <ListBox HorizontalAlignment="Left" Height="124" Margin="165,269,0,0" VerticalAlignment="Top" Width="271" Name="Przedmioty" SelectionMode="Multiple" FontSize="22"/>
+
+
+    </Grid>
+</Window>
